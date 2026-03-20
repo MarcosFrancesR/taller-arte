@@ -1,56 +1,47 @@
-# Aprendizaje Avanzado
+# Taller de Expresión Artística Contemporánea
 
-Este material se proporciona como apuntes para la asignatura [Aprendizaje Avanzado](https://cvnet.cpd.ua.es/Guia-Docente/GuiaDocente/Index?wcodest=C213&wcodasi=33680&wlengua=es) del [Grado en Ingeniería en Inteligencia Artificial](https://web.ua.es/es/grados/grado-en-ingenieria-en-inteligencia-artificial/) de la [Universidad de Alicante](https://www.ua.es/). 
+Este material se proporciona como apuntes y guía de trabajo para el taller [Expresión Artística Contemporánea](https://ejemplo-universidad.es/guia-taller-arte) de la **Facultad de Bellas Artes** de la **Universidad de las Artes Visuales**. 
 
-## Contexto de la asignatura
+## Contexto del taller
 
-La asignatura _Aprendizaje Avanzado_ forma parte de la materia **Aprendizaje Automático**
- junto con _Fundamentos del Aprendizaje Automático_ y _Redes Neuronales y Aprendizaje Profundo_. Se imparte en el segundo cuatrimestre del tercer curso, como continuación natural de _Fundamentos del Aprendizaje Automático_ y de forma paralela con _Redes Neuronales y Aprendizaje Profundo_.
+El taller de _Expresión Artística Contemporánea_ forma parte del eje de **Producción Creativa** junto con las asignaturas de _Fundamentos del Dibujo_ y _Teoría del Color_. Se imparte como un módulo intensivo diseñado para que el alumno transite desde las técnicas tradicionales hacia la experimentación con nuevos medios y lenguajes visuales.
 
-Una vez establecidas las bases del aprendizaje automático en la asignatura de fundamentos, _Aprendizaje Avanzado_ se centra en proporcionar una visión amplia de los diferentes tipos de modelos existentes, buscando adquirir la capacidad de seleccionar, integrar, optimizar y evaluar múltiples técnicas para resolver problemas complejos del mundo real.
+Una vez dominadas las bases técnicas en los cursos introductorios, este taller se centra en el desarrollo de un discurso propio, buscando que el estudiante sea capaz de conceptualizar, ejecutar y exponer proyectos artísticos que dialoguen con el contexto social actual.
 
-Se recomienda haber cursado previamente _Fundamentos del Aprendizaje Automático_.
+Se recomienda haber cursado previamente _Fundamentos del Dibujo_ e _Historia del Arte Moderno_.
 
 ## Planificación
 
-La asignatura se estructura en cuatro grandes bloques:
+El taller se estructura en cuatro grandes bloques temáticos:
 
-- **Bloque I.** Aprendizaje supervisado
-- **Bloque II.** Aprendizaje no supervisado
-- **Bloque III.** Aprendizaje por refuerzo
-- **Bloque IV.** Aprendizaje aplicado a problemas del mundo real
+- **Bloque I.** La materia y el soporte (Abstracción)
+- **Bloque II.** El cuerpo como herramienta (Performance y Acción)
+- **Bloque III.** El espacio y la instalación
+- **Bloque IV.** Identidad y narrativa visual
 
-A continuación se detalla la planificación de sesiones de la asignatura:
+A continuación se detalla la planificación de sesiones del taller:
 
-| Fecha | Teoría | Prácticas |
-|-------|--------|-----------|
-| S1 (26 de enero) | I.1 Modelos paramétricos y no paramétricos. Modelos lineales. Regresión Logística. | P0. Datos y visualización |
-| S2 (3 de febrero) | I.2 SVM y _kernel trick_ | P0. Datos y visualización |
-| S3 (10 de febrero) | * _Charla mes cultural EPS_ | P0. Aprendizaje supervisado |
-| S4 (17 de febrero) | I.3 Árboles de decisión | P1. Aprendizaje supervisado |
-| S5 (24 de febrero) | I.4 Métodos de ensamble. Bagging. Random Forest | P1. Aprendizaje supervisado |
-| S6 (3 de marzo) | I.5 Boosting. AdaBoost. **Control 1** | P1. Aprendizaje supervisado |
-| S7 (10 de marzo) | I.6 Gradient Boosting. XGBoost | P1. Aprendizaje supervisado |
-| S8 (17 de marzo) | II.7 Clustering. GMM y EM | P2. Aprendizaje no supervisado |
-| S9 (24 de marzo) | II.8 DBSCAN | P2. Aprendizaje no supervisado |
-| S10 (31 de marzo) | II.9 Clustering espectral. **Control 2** | P2. Aprendizaje no supervisado |
-| S11 (21 de abril) | III.10 Aprendizaje por refuerzo | P3. Aprendizaje por refuerzo |
-| S12 (28 de abril) | III.11 Aprendizaje por refuerzo | P3. Aprendizaje por refuerzo |
-| S13 (5 de mayo) | IV.12 Selección y optimización de modelos | P3. Aprendizaje por refuerzo |
-| S14 (12 de mayo) | IV.13 Aplicación a problemas del mundo real. **Control 3** | P3. Aprendizaje por refuerzo |
-| S15 (19 de mayo) | Presentación de proyectos | Presentación de proyectos |
-
-
-
+| Fecha | Sesión Teórica (Conceptos) | Sesión Práctica (Taller) |
+|-------|----------------------------|--------------------------|
+| S1 (10 de oct.) | I.1 Del lienzo al objeto. Materialidad en el arte. | P0. Exploración de texturas no convencionales |
+| S2 (17 de oct.) | I.2 El gesto pictórico: Del Expresionismo al Action Painting | P1. Pintura matérica y gran formato |
+| S3 (24 de oct.) | * _Visita guiada al Museo de Arte Contemporáneo_ | P1. Bocetos y diario de artista |
+| S4 (31 de oct.) | II.3 El cuerpo en el arte: De la escultura a la performance | P2. El cuerpo como trazo y huella |
+| S5 (07 de nov.) | II.4 Videoarte y documentación de la acción | P2. Registro audiovisual de la obra |
+| S6 (14 de nov.) | II.5 La mirada del otro. **Entrega de Portafolio I** | P2. Crítica grupal de procesos |
+| S7 (21 de nov.) | III.6 El concepto de "Site-specific". Intervención urbana | P3. Proyecto de intervención en el campus |
+| S8 (28 de nov.) | III.7 La luz y el sonido como elementos escultóricos | P3. Montaje de instalaciones efímeras |
+| S9 (05 de dic.) | IV.8 Narrativas de la identidad: El arte como espejo | P4. Desarrollo de obra final |
+| S10 (12 de dic.) | IV.9 Curaduría y montaje expositivo. **Control Teórico** | P4. Finalización de piezas y acabados |
+| S11 (19 de dic.) | Presentación y montaje de la exposición final | Inauguración y defensa de proyectos |
 
 ## Licencia
 
-**© 2026 Departamento de Ciencia de la Computación e Inteligencia Artificial. Universidad de Alicante**
+**© 2026 Departamento de Artes Visuales y Nuevos Medios. Universidad de las Artes Visuales**
 
 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
   <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="CC BY 4.0">
 </a>
 
-
-Este material está disponible bajo licencia Creative Commons Attribution 4.0 International. 
-Esto significa que puedes usar, compartir y adaptar estos apuntes libremente, siempre que des el crédito apropiado.
+Este material está disponible bajo licencia **Creative Commons Attribution 4.0 International**. 
+Esto significa que puedes usar, compartir y adaptar estos apuntes libremente para tus procesos creativos o educativos, siempre que des el crédito apropiado a la institución original.
