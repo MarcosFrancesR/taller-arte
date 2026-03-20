@@ -1,0 +1,124 @@
+site_name: Aprendizaje Avanzado
+site_description: Apuntes de la asignatura Aprendizaje Avanzado del Grado en Ingeniería en Inteligencia Artificial de la Universidad de Alicante
+site_author: Marcos Francés Requena
+site_url: https://marcosfrancesr.github.io/taller-arte/
+
+theme:
+  name: material
+  logo: 'images/logo.png'
+  language: es
+  palette:
+    - scheme: default
+      primary: white
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Modo oscuro
+    - scheme: slate
+      primary: white
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro    
+  features:
+    # - navigation.tabs
+    # - navigation.sections
+    # - navigation.expand
+    # - search.suggest
+    # - search.highlight
+    - navigation.sections      # Secciones expandibles en la izquierda
+    - navigation.expand        # Expandir secciones automáticamente
+    - navigation.top           # Botón "volver arriba"
+    - navigation.indexes       # Páginas índice para secciones
+    - toc.follow               # TOC sigue el scroll
+    - toc.integrate            # Integrar TOC en navegación izquierda (opcional)
+    - search.suggest           # Sugerencias de búsqueda
+    - search.highlight         # Resaltar resultados
+    - content.code.copy        # Botón copiar código
+    - content.code.annotate    # Anotaciones en código    
+
+plugins:
+  - search:
+      lang: es
+  - glightbox  # Para zoom en imágenes
+  - bibtex:
+      bib_file: "referencias.bib"
+      csl_file: "apa.csl"
+  - caption:
+      additional_identifier: []  
+      cross_reference_text: '{page_title}/{local_ref}'
+      table: 
+        enable: true
+        start_index: 1
+        increment_index: 1
+        position: bottom
+        default_id: '_table-{index}'
+        reference_text: 'Tabla {index}'
+        caption_prefix: 'Tabla {index}:'
+        markdown_identifier: 'Table:'
+        allow_indented_caption: True
+      figure: 
+        enable: true
+        start_index: 1
+        increment_index: 1
+        position: bottom
+        default_id: '_figure-{index}'
+        reference_text: 'Figura {index}'
+        caption_prefix: 'Figura {index}:'
+        markdown_identifier: 'Figure:'
+        allow_indented_caption: True
+        ignore_alt: False
+        ignore_classes: ["twemoji"]
+      custom: 
+        enable: true
+        start_index: 1
+        increment_index: 1
+        position: bottom
+        default_id: '_{identifier}-{index}'
+        reference_text: '{Identifier} {index}'
+        caption_prefix: '{Identifier} {index}:'
+        markdown_identifier: '{Identifier}:'
+        allow_indented_caption: True
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js
+
+nav:
+- Introducción: 'index.md'
+- Bloque I. Aprendizaje supervisado: 
+  - 1. Modelos paramétricos y no paramétricos. Logistic Regression: '01-modelos-no-param.md'
+  - 2. SVM: '02-svm.md'
+  - 3. Árboles de decisión: '03-arboles-decision.md'
+  - 4. Métodos de ensemble. Random Forest: '04-random-forest.md'
+  - 5. Boosting. Adaboost: '05-adaboost.md'
+  - 6. Gradient Boosting: '06-gradient-boosting.md'
+- Bloque II. Aprendizaje no supervisado:
+  - 7. Clustering: '07-clustering.md'
+  - 8. DBSCAN: '08-dbscan.md'
+- Prácticas: 
+  - 0. Datos y visualización: 'practicas/00-datos-y-visualizacion.md'
+  - 1. Aprendizaje supervisado: 'practicas/01-aprendizaje-supervisado.md'
+  - 2. Aprendizaje no supervisado: 'practicas/02-no-supervisado.md'
+- Proyecto final:
+  - Aprendizaje Automático en problemas del mundo real: '14-proyecto-final.md'
+#  - 9. GMM: '09-gmm.md'
+#- Bloque III. Aprendizaje por refuerzo:
+#  - 10. Métodos basados en política: '10-rl-policy.md'
+#- Bloque IV. Aplicación del Aprendizaje Automático:
+#  - 12. Selección y optimización de modelos: '07-optimizacion.md'
+#  - 13. Aprendizaje automático en problemas del mundo real: '08-aplicaciones.md'
