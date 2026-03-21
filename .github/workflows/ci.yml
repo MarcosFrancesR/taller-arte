@@ -16,17 +16,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      # --- AQUÍ ESTÁ EL CAMBIO ---
       - name: Install Pandoc
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc
-      
-      - name: Configure Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11' # Versión estable
-          
+
       - name: Install dependencies
         run: |
           pip install mkdocs-material \
@@ -35,11 +29,6 @@ jobs:
                       mkdocs-caption \
                       pybtex \
                       pypandoc
-      # ---------------------------
 
-      - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force
-                      pybtex
-          
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
