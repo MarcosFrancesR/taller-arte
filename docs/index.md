@@ -1,8 +1,8 @@
 # Taller de Expresión Artística Contemporánea
 
-![Logo Taller de Arte](images/logo.jpg)
+![Logo Taller de Arte](images/logo.jpg){ width="100" }
 
-![Escudo de Caudete](images/logo_caudete.jpg)
+![Escudo de Caudete](images/logo_caudete.jpg){ width="100" }
 
 Este material se proporciona como contenido y guía de trabajo para el taller de arte villa de Caudete. 
 
