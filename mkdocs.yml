@@ -5,7 +5,7 @@ site_url: https://marcosfrancesr.github.io/taller-arte/
 
 theme:
   name: material
-  logo: 'images/logo.png'
+  logo: 'images/logo.jpg'
   language: es
   palette:
     - scheme: default
@@ -102,7 +102,7 @@ nav:
 - Introducción: 'index.md'
 - Bloque I. Contenido de Prueba: 
   - 1. Captura Digital e Histograma: '01-captura-digital-histograma.md'
-  - 2. SVM: '02-svm.md'
+  - 2. Teoría del Color y Espacios no Lineales: '02-teoria-color.md'
 #  - 3. Árboles de decisión: '03-arboles-decision.md'
 #  - 4. Métodos de ensemble. Random Forest: '04-random-forest.md'
 #  - 5. Boosting. Adaboost: '05-adaboost.md'

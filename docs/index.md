@@ -1,6 +1,6 @@
 # Taller de Expresión Artística Contemporánea
 
-Este material se proporciona como apuntes y guía de trabajo para el taller [Expresión Artística Contemporánea](https://ejemplo-universidad.es/guia-taller-arte) de la **Facultad de Bellas Artes** de la **Universidad de las Artes Visuales**. 
+Este material se proporciona como contenido y guía de trabajo para el taller de arte villa de Caudete. 
 
 ## Contexto del taller
 
@@ -37,11 +37,11 @@ A continuación se detalla la planificación de sesiones del taller:
 
 ## Licencia
 
-**© 2026 Departamento de Artes Visuales y Nuevos Medios. Universidad de las Artes Visuales**
+**© 2026 Taller de Arte Villa de Caudete**
 
 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
   <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="CC BY 4.0">
 </a>
 
 Este material está disponible bajo licencia **Creative Commons Attribution 4.0 International**. 
-Esto significa que puedes usar, compartir y adaptar estos apuntes libremente para tus procesos creativos o educativos, siempre que des el crédito apropiado a la institución original.
+Esto significa que puedes usar, compartir y adaptar estos contenidos libremente para tus procesos creativos o educativos, siempre que des el crédito apropiado a la creador de los mismos.
