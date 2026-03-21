@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://marcosfrancesr.github.io/taller-arte/</loc>
+         <lastmod>2026-03-21</lastmod>
+    </url>
+    <url>
+         <loc>https://marcosfrancesr.github.io/taller-arte/01-captura-digital-histograma/</loc>
+         <lastmod>2026-03-21</lastmod>
+    </url>
+    <url>
+         <loc>https://marcosfrancesr.github.io/taller-arte/02-teoria-color/</loc>
+         <lastmod>2026-03-21</lastmod>
+    </url>
+    <url>
+         <loc>https://marcosfrancesr.github.io/taller-arte/practicas/00-datos-y-visualizacion/</loc>
+         <lastmod>2026-03-21</lastmod>
+    </url>
+    <url>
+         <loc>https://marcosfrancesr.github.io/taller-arte/practicas/01-aprendizaje-supervisado/</loc>
+         <lastmod>2026-03-21</lastmod>
+    </url>
+    <url>
+         <loc>https://marcosfrancesr.github.io/taller-arte/practicas/02-no-supervisado/</loc>
+         <lastmod>2026-03-21</lastmod>
+    </url>
+</urlset>
